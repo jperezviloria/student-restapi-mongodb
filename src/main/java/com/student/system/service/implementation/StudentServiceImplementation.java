@@ -29,6 +29,6 @@ public class StudentServiceImplementation implements StudentService {
     @Override
     public String saveStudent(Student student) {
         studentRepository.save(student);
-        return "Student was saved";
+        return "Student was saved with other message";
     }
 }
