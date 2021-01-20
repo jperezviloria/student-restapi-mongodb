@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/student-2")
+@RequestMapping("/student-3")
 public class StudentController {
 
     @Autowired
